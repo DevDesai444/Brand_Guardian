@@ -1,4 +1,4 @@
-# Brand Guardian AI
+# Azure multimodal compliance ingestion engine
 
 Brand Guardian AI is an **LLM-powered compliance auditing system for marketing videos**.
 It ingests a YouTube video, extracts speech/on-screen text, retrieves relevant policy guidance from a vector knowledge base, and returns a structured compliance report (`PASS`/`FAIL`, violations, and summary).
@@ -335,3 +335,4 @@ Then visit:
 - [ ] Run `index_documents.py` to create policy embeddings.
 - [ ] Start API and call `/audit` with a YouTube URL.
 - [ ] Inspect output `status`, `compliance_results`, and `final_report`.
+
